@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="style.css" rel="stylesheet">
+<title>
+  {{ username}} home page
+</title>
+</head>
+<body>
+{{ #options}}
+<h1> {{ username }} </h1>
+
+<h3>You have signed in {{ logins }} times</h3>
+  {{ /options }}
+  <form method="post" action="/">
+    <input type="submit" value="Sign Out">
+</body>
+</html>

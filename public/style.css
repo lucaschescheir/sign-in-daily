@@ -1,0 +1,19 @@
+html {
+  background: grey;
+  display: flex;
+  justify-content: center;
+
+}
+
+body {
+
+  border: 1px solid black;
+  height: 650px;
+  width: 415px;
+  //background-image: url("music.png");
+  background: linear-gradient(grey, black);
+  //margin: 0px;
+}
+h1 {
+  color: white;
+}
